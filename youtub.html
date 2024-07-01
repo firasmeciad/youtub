@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/youtub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+<script> 
+</script>
+    <style>
+    
+        .t_syle{
+padding-left: 0px;
+padding-right: 0px;
+        }
+        
+    </style>
+</head>
+<body class="p-3 m-0 border-0 bd-example m-0 border-0 nav_style" >
+  <div id="top-menu">
+    <div class="layer"></div>
+    <nav class="navbar navbar-expand bg-body-tertiary bootstrap-rtl fixed-top nav_style mt-0 ">
+        <div class="container-fluid navbar_style pt-3 pb-3">
+          <img src="img/bar(menu).svg" id="toggler" class="bar_style"  data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1"  >
+          <div class="side_bar animate ">
+            <ul class="list-group list-group-flush ">
+              <li class="side_bar_li">
+                <a class="list-group-item list-group-item-action"  href="youtub.html">
+                  <img class="bar_style" src="img/home_page.svg" alt="">
+                  <span>الصفحة الرئيسة</span>
+                </a>
+              </li>
+              <li class="side_bar_li">
+                <a class="list-group-item list-group-item-action"  href="search.html">
+                  <img class="bar_style" src="img/search-2903.svg" alt="">
+                  <span>صفحة البحث</span>
+                </a>
+              </li>
+              <li class="side_bar_li">
+                <a class="list-group-item list-group-item-action"  href="log.html">
+                  <img class="bar_style" src="img/sin-fire-5613.svg" alt="">
+                  <span>الفيديوهات المقترحة</span>
+                </a>
+              </li>
+              <li class="side_bar_li" >
+                <a class="list-group-item list-group-item-action"  href="youtub.html">
+                  <img class="bar_style" src="img/phone-6015.svg" alt="">
+                  <span> الاتصال بنا</span>
+                </a>
+              </li>
+              <li class="side_bar_li">
+                <a class="list-group-item list-group-item-action"  href="youtub.html">
+                  <img class="bar_style" src="img/language.svg" alt="">
+                  <span> اللغة</span>
+                </a>
+              </li>
+              <li class="side_bar_li">
+                <a class="list-group-item list-group-item-action"  href="youtub.html">
+                  <img class="bar_style" src="img/question-11799.svg" alt="">
+                  <span> اسئلة و اجوبة</span>
+                </a>
+              </li>
+              <li class="side_bar_li">
+                <a class="list-group-item list-group-item-action"  href="youtub.html">
+                  <img class="bar_style" src="img/dark-mode-6682.svg" alt="">
+                  <span> الوضع المظلم </span>
+                </a>
+              </li>
+            </ul> 
+          </div>
+          <a class="navbar-brand mr-5" href="youtub.html ">
+            <b>
+          يوتيوبي
+        </b>
+          <span class="video_icon"><i class="fa-solid fa-circle-play"></i> </span>
+          </a>
+          <div class="navbar-collapse " id="navbarSupportedContent" style="">
+            <ul class="navbar-nav  mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item nav_01">
+                <a class="nav-link "  href="log.html">الفيديوهات المقترحة</a>
+              </li>
+              <li class="nav-item nav_02">
+                <a class="nav-link" href="#">الفيديوهات المرفوعة</a>
+              </li>
+              <li class="nav-item nav_03">
+                <a class="nav-link ms-3 " href="#" >الفيديوهات الحديثة</a>
+              </li>
+              <li class="nav-item">
+              </li>
+            </ul>
+            <img src="img/search-2903.svg" class="search_icon ">
+            <div class="d-flex" role="search text-box" >
+              <input class="form-control ms-2" type="search" placeholder="ابحث" aria-label="Search">
+              <button class="btn btn-outline-info  btn-white btn-animate ms-4" type="submit" onclick=" location.href = 'search.html'" >بحث</button>
+              <a class="nav-link  entre_modale btn-intermediate  d-inline-block mr-1 w-75 pt-1 " style="background-color:transparent !important;"  href="#" data-bs-toggle="modal" data-bs-target="#loginModal">تسجيل الدخول </a>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+      <input type="search" placeholder="... ابحث عن" class="search_show">
+      <!--0001 ---------- -->
+      
+        <h1 class=" h1_style mt-0 ">فيديوهات مقترحة </h1>
+      
+      <div class="conten">
+      
+      <div class="row ">
+          <div class="col-sm-6 col-md-4 col-lg-3 my-5">
+            <a href="watch.html">
+              <div class="card card_margin_top">
+                  <div class="icon_card">
+                <img src="img/c9vd_b8kw_230627.jpg" class="card-img-top img_style" alt="..." style="height: 350px;">
+                <time datetime="2:01">2:01</time>
+                <img src="img/play-button-4210.svg" class="play_circle">
+                  </div>
+                <div class="card-body">
+                  <p class="card-text">العمل الجاد مهم لكنه غير كافي لعيش حياة الملوك فيديو ظريف للكلاب و القطط </p>
+                </div>
+              </a>
+                <div class="card-footer">
+                  <img class="icon_style ms-1" src="img/clapperboard-play.png" alt="">  <small class="text-body-secondary">3 آلاف مشاهدة</small><br>
+                  <img class="icon_style ms-1" src="img/time-fast.svg" alt=""> <small class="text-body-secondary">قبل 1 شهر</small>
+                </div>
+              </div>
+            
+          </div>
+          <!--00002 ----- -->
+          <div class="col-sm-6 col-md-4 col-lg-3 my-5">
+            <a href="watch_02.html">
+              <div class="card card_margin_top">
+                <div class="icon_card">
+                <img src="img/horse01.jpg " class="card-img-top img_style" alt="..." style="height: 350px;">
+                <time datetime="2:01">1:30</time>
+                <img src="img/play-button-4210.svg" class="play_circle">
+                  </div>
+                <div class="card-body">
+                  <p class="card-text"> الاحصنة و الدواب نعمة كبيرة من الله عز وجل وجب الشكر عليها </p>
+                </div>
+              </a>
+                <div class="card-footer">
+                  <img class="icon_style ms-1" src="img/clapperboard-play.png" alt="">  <small class="text-body-secondary">10 آلاف مشاهدة</small><br>
+                  <img class="icon_style ms-1" src="img/time-fast.svg" alt=""> <small class="text-body-secondary">قبل 5 شهر</small>
+                </div>
+              </div>
+            
+          </div>
+ <!--0003 ----- -->
+ <div class="col-sm-6 col-md-4 col-lg-3 my-5">
+  <a href="watch.html">
+    <div class="card card_margin_top">
+        <div class="icon_card">
+      <img src="img/tank-city-destroyed-by-war-army-battle-artillery-weapons-force-conflict-generative-ai_641010-8828_2-topaz-enhance-6x.jpg" class="card-img-top img_style" alt="..." style="height: 350px;">
+      <time datetime="2:01">2:01</time>
+      <img src="img/play-button-4210.svg" class="play_circle">
+        </div>
+      <div class="card-body">
+        <p class="card-text"> فيديو تدريبي للقوات العسكرية في باتنة -امدوكال بالذخيرة الحية </p>
+      </div>
+      <div class="card-footer">
+        <img class="icon_style ms-1" src="img/clapperboard-play.png" alt="">  <small class="text-body-secondary">70 آلاف مشاهدة</small><br>
+        <img class="icon_style ms-1" src="img/time-fast.svg" alt=""> <small class="text-body-secondary">قبل 1 سنة</small>
+      </div>
+    </div>
+  </a>
+</div>
+ <!--004 ----- -->
+ <div class="col-sm-6 col-md-4 col-lg-3 my-5">
+  <a href="watch.html">
+    <div class="card card_margin_top">
+      <div class="icon_card">
+      <img src="img/cow.jpg" class="card-img-top img_style" alt="..." style="height: 350px;">
+      <time datetime="2:01">2:01</time>
+      <img src="img/play-button-4210.svg" class="play_circle">
+        </div>
+      <div class="card-body">
+        <p class="card-text">العمل الجاد مهم لكنه غير كافي لعيش حياة الملوك فيديو ظريف للكلاب و القطط </p>
+      </div>
+      <div class="card-footer">
+        <img class="icon_style ms-1" src="img/clapperboard-play.png" alt="">  <small class="text-body-secondary">3 آلاف مشاهدة</small><br>
+        <img class="icon_style ms-1" src="img/time-fast.svg" alt=""> <small class="text-body-secondary">قبل 1 شهر</small>
+      </div>
+    </div>
+  </a>
+</div>
+ <!-- ----- -->
+ <div class="col-sm-6 col-md-4 col-lg-3 my-5">
+  <a href="watch.html">
+    <div class="card">
+      <div class="icon_card">
+      <img src="img/moutains.jpg" class="card-img-top" alt="..." style="height: 350px;">
+      <time datetime="2:01">2:01</time>
+      <img src="img/play-button-4210.svg" class="play_circle">
+        </div>
+      <div class="card-body">
+        <p class="card-text">العمل الجاد مهم لكنه غير كافي لعيش حياة الملوك فيديو ظريف للكلاب و القطط </p>
+      </div>
+      <div class="card-footer">
+        <img class="icon_style ms-1" src="img/clapperboard-play.png" alt="">  <small class="text-body-secondary">3 آلاف مشاهدة</small><br>
+        <img class="icon_style ms-1" src="img/time-fast.svg" alt=""> <small class="text-body-secondary">قبل 1 شهر</small>
+      </div>
+    </div>
+  </a>
+</div>
+ <!-- ----- -->
+ <div class="col-sm-6 col-md-4 col-lg-3 my-5">
+  <a href="watch.html">
+    <div class="card">
+      <div class="icon_card">
+      <img src="img/home.jpg" class="card-img-top" alt="..." style="height: 350px;">
+      <time datetime="2:01">2:01</time>
+      <img src="img/play-button-4210.svg" class="play_circle">
+        </div>
+      <div class="card-body">
+        <p class="card-text">العمل الجاد مهم لكنه غير كافي لعيش حياة الملوك فيديو ظريف للكلاب و القطط </p>
+      </div>
+      <div class="card-footer">
+        <img class="icon_style ms-1" src="img/clapperboard-play.png" alt="">  <small class="text-body-secondary">3 آلاف مشاهدة</small><br>
+        <img class="icon_style ms-1" src="img/time-fast.svg" alt=""> <small class="text-body-secondary">قبل 1 شهر</small>
+      </div>
+    </div>
+  </a>
+</div>
+ <!-- ----- -->
+ <div class="col-sm-6 col-md-4 col-lg-3 my-5">
+  <a href="watch.html">
+    <div class="card">
+      <div class="icon_card">
+      <img src="img/traffic-vehicle-urban-reflections-city.jpg" class="card-img-top" alt="..." style="height: 350px;">
+      <time datetime="2:01">2:01</time>
+      <img src="img/play-button-4210.svg" class="play_circle">
+        </div>
+      <div class="card-body">
+        <p class="card-text">العمل الجاد مهم لكنه غير كافي لعيش حياة الملوك فيديو ظريف للكلاب و القطط </p>
+      </div>
+      <div class="card-footer">
+        <img class="icon_style ms-1" src="img/clapperboard-play.png" alt="">  <small class="text-body-secondary">3 آلاف مشاهدة</small><br>
+        <img class="icon_style ms-1" src="img/time-fast.svg" alt=""> <small class="text-body-secondary">قبل 1 شهر</small>
+      </div>
+    </div>
+  </a>
+</div>
+ <!-- ----- -->
+ <div class="col-sm-6 col-md-4 col-lg-3 my-5">
+  <a href="watch.html">
+    <div class="card">
+      <div class="icon_card">
+      <img src="img/knif.jpg" class="card-img-top" alt="..." style="height: 350px;">
+      <time datetime="2:01">10:05</time>
+      <img src="img/play-button-4210.svg" class="play_circle">
+        </div>
+      <div class="card-body">
+        <p class="card-text">العمل الجاد مهم لكنه غير كافي لعيش حياة الملوك فيديو ظريف للكلاب و القطط </p>
+      </div>
+      <div class="card-footer">
+        <img class="icon_style ms-1" src="img/clapperboard-play.png" alt="">  <small class="text-body-secondary">3 آلاف مشاهدة</small><br>
+        <img class="icon_style ms-1" src="img/time-fast.svg" alt=""> <small class="text-body-secondary">قبل 1 شهر</small>
+      </div>
+    </div>
+  </a>
+</div>
+        </div>
+      
+
+<!-- Modal -->
+<div class="modal fade nav_style " id="loginModal"  >
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header rwo">
+        <h1 class="modal-title fs-5 col-11 " id="exampleModalLabel">تسجيل الدخول</h1>
+        <button type="button" class="btn-close col me-4" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="email" class="col-form-label">البريد الاكتروني:</label>
+            <input type="email" class="form-control" id="email">
+            <label for="pssword" class="col-form-label">كلمة المرور:</label>
+            <input type="password" class="form-control" id="pssword">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer rwo">
+        <a href="#" class="col t_syle">نسيت كلمة المرور</a>
+        <a href="#" class="col">انشاء حساب</a>
+        <button type="button" class="btn btn-primary col btn-white btn-animate">دخول</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- خاص اخفاء القائمة الجانبية عن طريق colapse -->
+          <!-- <div class="toogle_sidebar">
+            <img src="img/bar(menu).svg" id="toogler" class="bar_style"  data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1"  >
+            <div  style="min-height: 120px;">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div>
+                    <div id="wrap">
+                      <div class="side_bar">
+                          <ul class="list-group list-group-flush ">
+                            <li class="side_bar_li">
+                              <a class="list-group-item list-group-item-action"  href="youtub.html">
+                                <img class="bar_style" src="img/home_page.svg" alt="">
+                                <span>الصفحة الرئيسة</span>
+                              </a>
+                            </li>
+                            <li class="side_bar_li" >
+                              <a class="list-group-item list-group-item-action"  href="youtub.html">
+                                <img class="bar_style" src="img/phone-6015.svg" alt="">
+                                <span> الاتصال بنا</span>
+                              </a>
+                            </li>
+                            <li class="side_bar_li">
+                              <a class="list-group-item list-group-item-action"  href="youtub.html">
+                                <img class="bar_style" src="img/language.svg" alt="">
+                                <span> اللغة</span>
+                              </a>
+                            </li>
+                            <li class="side_bar_li">
+                              <a class="list-group-item list-group-item-action"  href="youtub.html">
+                                <img class="bar_style" src="img/question-11799.svg" alt="">
+                                <span> اسئلة و اجوبة</span>
+                              </a>
+                            </li>
+                            <li class="side_bar_li">
+                              <a class="list-group-item list-group-item-action"  href="youtub.html">
+                                <img class="bar_style" src="img/dark-mode-6682.svg" alt="">
+                                <span> الوضع المظلم </span>
+                              </a>
+                            </li>
+                          </ul> 
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

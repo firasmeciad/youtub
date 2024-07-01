@@ -1,0 +1,52 @@
+.icon_style_filter{
+    cursor: pointer;
+}
+.toggle_filter{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 1200px !important;
+   
+   
+}
+.width_style{
+    width: 200px !important;
+}
+input:checked+span{
+    color: blue;
+
+}
+.card-text{
+    text-overflow:ellipsis;
+    overflow: hidden;
+}
+.play_circle{
+    right: 125px !important; 
+}
+time{
+    right: 260px !important;
+    width: 40px !important; 
+}
+.hiden{
+    width: 740px !important;
+}
+.card .card-horizontal .card-body  p{
+    white-space: nowrap;
+   overflow: hidden !important;
+   text-overflow: ellipsis !important;
+
+}
+
+@media(max-width : 800px)
+{
+    .hiden{
+        width: 100px !important;
+    }
+}
+@media(min-width : 800px)
+{
+    .hiden{
+        width:600px !important;
+    }
+}
+
+

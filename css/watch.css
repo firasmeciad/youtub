@@ -1,0 +1,103 @@
+.background_style{
+    height:200px  ;
+    width: 100%;
+    background-size:cover;
+    position: relative;
+    top:75px;
+    margin-bottom: 50px;
+}
+
+.p-3 {
+    padding: 0px !important;
+  }
+  .abonner{
+    color: rgb(208, 203, 213) !important;
+    background-color: rgb(18, 137, 211) !important;
+    border: 0px !important;
+
+    position: relative  !important;
+    top:-0px    !important;
+  }
+  /* ------- */
+
+  .button{
+    position:relative;
+    display:inline-block;
+   top:-35px;
+    width: 200px;
+    height: 20px;
+
+  }
+  
+  .button a{
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:36px;
+    text-align: center;
+    text-decoration:none;
+    background-color:rgb(18, 137, 211);
+    display:block;
+    position:relative;
+    padding:0px 0px;
+    
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+    
+    -webkit-box-shadow:inset 0 1px 0 #DDEEF9, 0 10px 0 #99CCEC;
+    -moz-box-shadow:inset 0 1px 0 #DDEEF9, 0 10px 0 #99CCEC;
+    box-shadow:inset 0 1px 0 #DDEEF9, 0 10px 0 #99CCEC;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: aliceblue !important;
+
+  }
+  
+  .button a:active{
+    top:10px;
+    background-color:#0D6297;
+    -webkit-box-shadow:inset 0 1px 0 #DDEEF9, inset 0 -3px 0 #03141E;
+    -moz-box-shadow:inset 0 1px 0 #DDEEF9, inset 0 -3pxpx 0 #03141E;
+    box-shadow:inset 0 1px 0 #DDEEF9, inset 0 -3px 0 #03141E;
+    color: aliceblue !important;
+  }
+  
+  .button:after{
+    content:"";
+    height:100%;
+    width:100%;
+    padding:4px;
+    position: absolute;
+    bottom:-15px;
+    left:-4px;
+    z-index:-1;
+    background-color:#0E2E43;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  /* ------ */
+  .watch_icons{
+        position: absolute;
+        top: 970px
+
+  }
+  .card_p p {
+    font-size: 20px !important;
+  }
+  .b_p{
+    color:#DDEEF9 !important ;
+    background-color:#0D6297 !important;
+    position:absolute !important;
+    
+
+  }
+  #ppp{
+    display: none;
+  }
+  .all{
+    background-color:#0D6297 !important ;
+  }

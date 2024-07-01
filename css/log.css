@@ -1,0 +1,36 @@
+.card-horizontal p {
+    white-space: nowrap;
+    overflow: hidden ;
+    text-overflow: ellipsis ;
+ 
+ }
+.card-body{
+    min-width: 0;
+}
+.close_icon{
+    position: relative;
+    right: 0px !important;
+    top: 0px;
+    width: 20PX !important;
+}
+.play_icon{
+    right: 125px !important;
+   
+}
+time{
+    right: 260px !important;
+    width: 40px !important; 
+}
+.card{
+    margin-top: 30px !important;
+}
+@media(min-width:992px) and (max-width:1199px){
+        .hisorique_style{
+            width:50% !important;
+        }
+        .card{
+            width: 110% !important;
+            font-size: xx-small !important;
+        }
+
+}
